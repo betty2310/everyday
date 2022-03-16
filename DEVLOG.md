@@ -3,7 +3,7 @@
 This is an example note.
 You can write notes in [GitHub-flavored Markdown](http://doc.inkdrop.info/manual/markdown-cheatsheet).
 Thử một số dòng gõ tiếng việt xem nó render có tốt không, có vẻ là không có lỗi gì hết nhỉ,
-# H1
+## H1
 ## H2
 ### H3
 #### H4
