@@ -1,8 +1,9 @@
-# 03.16.2022 - Test/Test Markdown in my website :v
+# 03.17.2022 - Test/Test Markdown in my website :v
 
 This is an example note.
 You can write notes in [GitHub-flavored Markdown](http://doc.inkdrop.info/manual/markdown-cheatsheet).
 Thử một số dòng gõ tiếng việt xem nó render có tốt không, có vẻ là không có lỗi gì hết nhỉ,
+
 ## H1
 ## H2
 ### H3
@@ -25,7 +26,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 1. First ordered list item
 2. Another item
    * Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
+3. Actual numbers don't matter, just that it's a number
    1. Ordered sub-list
 4. And another item.
   日本語では簡単ですが、面白いです。
