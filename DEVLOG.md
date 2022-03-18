@@ -9,13 +9,13 @@ Sau đây là phần test mark down, xem nó có thể hiển thị những nộ
 * list 1
 * list 2
 
-1. Number 1
-2. Number 2
++ Number 1
++ Number 2
 
-1. Number 1
++ Number 1
     * List 1
     * List 2
-2. Number 2
++ Number 2
 
 ### Một block code nào!!!
 
@@ -33,9 +33,9 @@ int main() {
 Đây là [dotfiles](https://github.com/betty2310/dotfiles) của mình. Hiện mình đang dùng chính là hệ điều hành Linux, nên việc backup chủ yếu dựa trên các file `.` này. Lại còn sử dụng `Window manager` chứ không dùng `DE` nữa chứ. Nhân tiện, `wm` mình đang dùng hiện tại là [awesomewm](https://awesomewm.org) 
 
 Đây là 1 chiếc image của mình.
-![image](https://github.com/betty2310/file/blob/main/awesome/out.png?raw=true)
+![image](_pic/out.png)
 Vậy còn `gif` thì sao?
-![image](https://github.com/betty2310/file/blob/main/awesome/output.gif?raw=true)
+![image](_pic/output.gif)
 **Yeah, everything fine** *mình quên mất là phải test in nghiêng* **đậm** hay là ~~strike~~ đấy.
 
 ### Còn j nữa nhỉ?
