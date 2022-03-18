@@ -1,3 +1,64 @@
+# 03.17.2022 - Đây hẳn là tag nhỉ/Còn đây là title.
+
+## Mình đã build được 1 trang web.
+
+Sau đây là phần test mark down, xem nó có thể hiển thị những nội dung gì!
+
+### Heading 3, 1 với 2 thì hiển thị bên trên rồi :v.
+
+* list 1
+* list 2
+
+1. Number 1
+2. Number 2
+
+1. Number 1
+    * List 1
+    * List 2
+2. Number 2
+
+### Một block code nào!!!
+
+```C++
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, world!";
+    return 0;
+}
+```
+
+### Test link với image nhỉ, ví dụ: [My github](https://github.com/betty2310)
+
+Đây là [dotfiles](https://github.com/betty2310/dotfiles) của mình. Hiện mình đang dùng chính là hệ điều hành Linux, nên việc backup chủ yếu dựa trên các file `.` này. Lại còn sử dụng `Window manager` chứ không dùng `DE` nữa chứ. Nhân tiện, `wm` mình đang dùng hiện tại là [awesomewm](https://awesomewm.org) 
+
+Đây là 1 chiếc image của mình.
+![image](https://github.com/betty2310/file/blob/main/awesome/out.png?raw=true)
+Vậy còn `gif` thì sao?
+![image](https://github.com/betty2310/file/blob/main/awesome/output.gif?raw=true)
+**Yeah, everything fine** *mình quên mất là phải test in nghiêng* **đậm** hay là ~~strike~~ đấy.
+
+### Còn j nữa nhỉ?
+
+> 1 đoạn quote đi. Khi nào bạn cần may áo giáp sắt nên sang phố Huế hỏi..... :v. 
+> 
+> *chữ nghiêng* hay **in đậm** cũng được nhớ
+
+| 1 cái    | bảng   | có        | 4 cột |
+| -------- | ------ | --------- | ----- |
+| Nội dung | Ở hàng | Thứ       | Nhất  |
+| Còn đây  | Thì ở  | hàng thức | Hai   |
+| Thôi vậy | Thôi   | Nhể       | :v      |
+
+Hay là thử 1 tý nâng cao kiểu `math render` nhể. Nhưng mình nghĩ là không được đâu. Ví dụ như là `inline math` này: 
+$ \int_{0}^{1} f(x)\mathrm{d}x $
+
+Nhưng còn thế này thì seo:
+
+$$
+\sum_{i=0}^{100} (i+1)
+$$
+
 # 03.17.2022 - Test/Test Markdown in my website :v
 
 This is an example note.
