@@ -30,7 +30,7 @@ int main() {
 
 ### Test link với image nhỉ, ví dụ: [My github](https://github.com/betty2310)
 
-Đây là [dotfiles](https://github.com/betty2310/dotfiles) của mình. Hiện mình đang dùng chính là hệ điều hành Linux, nên việc backup chủ yếu dựa trên các file `.` này. Lại còn sử dụng `Window manager` chứ không dùng `DE` nữa chứ. Nhân tiện, `wm` mình đang dùng hiện tại là [awesomewm](https://awesomewm.org) 
+Đây là [dotfiles](https://github.com/betty2310/dotfiles) của mình. Hiện mình đang dùng chính là hệ điều hành Linux, nên việc backup chủ yếu dựa trên các file `.` này. Lại còn sử dụng `Window manager` chứ không dùng `DE` nữa chứ. Nhân tiện, `wm` mình đang dùng hiện tại là [awesomewm](https://awesomewm.org)
 
 Đây là 1 chiếc image của mình.
 ![image](_pic/out.png)
@@ -40,9 +40,11 @@ Vậy còn `gif` thì sao?
 
 ### Còn j nữa nhỉ?
 
-> 1 đoạn quote đi. Khi nào bạn cần may áo giáp sắt nên sang phố Huế hỏi..... :v. 
-> 
+> 1 đoạn quote đi. Khi nào bạn cần may áo giáp sắt nên sang phố Huế hỏi..... :v.
+>
 > *chữ nghiêng* hay **in đậm** cũng được nhớ
+
+--- 
 
 | 1 cái    | bảng   | có        | 4 cột |
 | -------- | ------ | --------- | ----- |
@@ -50,14 +52,15 @@ Vậy còn `gif` thì sao?
 | Còn đây  | Thì ở  | hàng thức | Hai   |
 | Thôi vậy | Thôi   | Nhể       | :v      |
 
-Hay là thử 1 tý nâng cao kiểu `math render` nhể. Nhưng mình nghĩ là không được đâu. Ví dụ như là `inline math` này: 
-$ \int_{0}^{1} f(x)\mathrm{d}x $
+Hay là thử 1 tý nâng cao kiểu `math render` nhể. Nhưng mình nghĩ là không được đâu. Ví dụ như là `inline math` này: $ \int_{0}^{1} f(x)\mathrm{d}x $
 
 Nhưng còn thế này thì seo:
 
 $$
 \sum_{i=0}^{100} (i+1)
 $$
+
+This is the and.
 
 # 03.17.2022 - Test/Test Markdown in my website :v
 
