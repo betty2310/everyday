@@ -1,0 +1,9 @@
+{
+  "foldHeading": true,
+  "defaultViewMode": "preview",
+  "legacyEditor": true,
+  "showFrontmatter": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "vimMode": true
+}

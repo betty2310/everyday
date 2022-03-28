@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "2dd9ecb982ea53bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b9ab2dc27c5d17c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DEVLOG.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9921e356c31e608e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4b5dc7ed4a4ee4f",
+        "type": "tabs",
+        "dimension": 54.77099236641221,
+        "children": [
+          {
+            "id": "af9f8480f29db37f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fb007b1db5dae4bd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "mark ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3b6683c88867211a",
+        "type": "tabs",
+        "dimension": 45.22900763358779,
+        "children": [
+          {
+            "id": "baa488aeeab41e45",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DEVLOG.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "ca37500703d6a563",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274
+  },
+  "right": {
+    "id": "3108f83d0cf7ba06",
+    "type": "split",
+    "children": [
+      {
+        "id": "745af3ff75b55ca8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97f662a64821b653",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8b9ab2dc27c5d17c",
+  "lastOpenFiles": [
+    "DEVLOG.md",
+    "Đại cương về chuỗi.md",
+    "Math3/pdf/Scan-Giai-tich-3-MI1131.pdf",
+    "Math3/Chuỗi/Đại cương về chuỗi số.md",
+    "test.md",
+    "test1.md",
+    "_pic/output.gif.md",
+    "link test.md"
+  ]
+}
