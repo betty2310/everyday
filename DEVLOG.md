@@ -7,6 +7,8 @@ Dùng package manager của Os linux mà tải thôi. Như trên Arch thì: `sud
 
 Chạy docker và autostartup:
 
+---
+
 ```bash
 $ systemctl start docker.service
 $ systemctl enable docker.service
