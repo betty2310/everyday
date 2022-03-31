@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DEVLOG.md",
-            "mode": "source"
+            "file": "notes/03.31.2002.md",
+            "mode": "preview"
           }
         }
       }
@@ -62,7 +62,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DEVLOG.md",
+                "file": "notes/03.31.2002.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274
+    "width": 274,
+    "collapsed": true
   },
   "right": {
     "id": "3108f83d0cf7ba06",
@@ -115,13 +116,15 @@
   },
   "active": "8b9ab2dc27c5d17c",
   "lastOpenFiles": [
+    "notes/03.31.2002.md",
+    "03.29.2022 - Docker_Tutorial nào!!!.md",
     "DEVLOG.md",
+    "Untitled 1.md",
     "Đại cương về chuỗi.md",
     "Math3/pdf/Scan-Giai-tich-3-MI1131.pdf",
     "Math3/Chuỗi/Đại cương về chuỗi số.md",
     "test.md",
     "test1.md",
-    "_pic/output.gif.md",
-    "link test.md"
+    "_pic/output.gif.md"
   ]
 }
