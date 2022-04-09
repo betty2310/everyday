@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/01.04.2022.md",
+            "file": "DEVLOG.md",
             "mode": "preview"
           }
         }
@@ -62,7 +62,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/01.04.2022.md",
+                "file": "DEVLOG.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +115,15 @@
   },
   "active": "8b9ab2dc27c5d17c",
   "lastOpenFiles": [
+    "DEVLOG.md",
+    "_pic/2022.04.09-23.12.45.screenshot.png",
+    "03.04.2022.md",
     "notes/01.04.2022.md",
     "_pic/haiz.jpg",
     "notes/03.31.2002.md",
     "03.29.2022 - Docker_Tutorial nào!!!.md",
-    "DEVLOG.md",
     "Untitled 1.md",
     "Đại cương về chuỗi.md",
-    "Math3/pdf/Scan-Giai-tich-3-MI1131.pdf",
-    "Math3/Chuỗi/Đại cương về chuỗi số.md",
-    "test.md"
+    "Math3/pdf/Scan-Giai-tich-3-MI1131.pdf"
   ]
 }
