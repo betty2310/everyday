@@ -1,3 +1,62 @@
+# 04.10.2022 - C & C++ / Về gcc và g++.
+
+Nếu đều gõ `man gcc` và `man g++`, bạn đều thấy đều trỏ về 1 page với tiêu đề:
+
+> gcc - GNU project C and C++ compiler
+
+Vậy thì khác biệt ở 2 giữa chúng là gì? Cơ bản nhất, `gcc` sử dụng để biên dịch các file `.c`, ngược lại với `g++` sẽ biên dịch các file `.cpp`. Thực tế, có thể dùng cả 2 trình biên dịch cho cả 2 ngôn ngữ, tuy nhiên vẫn có sự khác biệt: `g++` nếu biên dịch file `c` sẽ vẫn coi nó là file `cpp` bình thường, còn `gcc` sẽ coi `c` và `cpp` là riêng biệt.
+
+Ngoài ra, cái khác biệt nhất mà mình muốn đề cập đến:
+
+| `gcc`                                                                                     | `g++`                   |
+| ----------------------------------------------------------------------------------------- | ----------------------- |
+| Using `g++` to link the object files, files automatically links in the std C++ libraries. | `gcc` does not do this. |
+                                                                                                               
+Ví dụ cho khác biệt trên là thư viện `math.h`, ví dụ với đoạn code `c` sau:
+
+```c
+#include <math.h>
+
+int isPrime(int number) {
+    if (number <= 1) {
+        return 0;
+    }
+    double sqrtOfNumber = sqrt(number); 
+    for (int i = 2; i < sqrtOfNumber; i++) {
+        if (number % i == 0) {  
+            return 0;
+        }
+    }
+    return 1;
+}
+
+```
+
+Sử dụng câu lệnh `gcc main.c -o main`, `gcc` sẽ vả vào mặt bạn với lỗi sau:
+
+```bash
+/usr/bin/ld: /tmp/cccVnyTo.o: in function `isPrime':
+main.c:(.main+0x5a): undefined reference to `sqrt'
+```
+
+Tuy nhiên, nếu biên dịch lại với `g++`, vẫn câu lệnh có cú pháp trên: `g++ main.c -o main`, chương trình sẽ chạy ngon ơ. 
+
+Khác biệt ở đây chính thư viện `math.h` không được link 1 cách tự động khi sử dụng `gcc`, ngược lại với `g++`. Nên nếu muốn sử dụng `gcc` để biên dịch, bạn cần thêm arg `-lm` để **l**ink các thư viện **m**aths. 
+
+```bash
+$ gcc main.c -o main -lm
+```
+
+### Bonus
+
+Có thể coi `g++` tương đương với `gcc -xc++ -lstdc++ -shared-libgcc`.
+
+### References
+
++ https://stackoverflow.com/questions/172587/what-is-the-difference-between-g-and-gcc
++ https://stackoverflow.com/questions/19372317/c-failing-to-compile-cant-find-math-h-functions
++ https://www.geeksforgeeks.org/difference-between-gcc-and-g/
+
 # 04.09.2022 - Docker/run pgAdmin4 on Docker in Arch Linux.
 	
 [pgAdmin4](https://www.pgadmin.org/download/) là GUI cho postgreSQL - dbms mình sẽ học cho học phần Database ở đại học. Nó là web application được build dựa trên `python` và `Javascript/jQuery`. Việc cài đặt trên Linux rất đơn giản, với Arch linux:
@@ -6,7 +65,7 @@
 $ yay -S pgadmin4
 ```
 
-Nhưng việc build trên python, nên packages python đi kèm nó rất nhiều:
+Nhưng app build dựa trên python, nên packages python đi kèm nó rất nhiều:
 
 ```
 Packages (35): python-alembic-1.7.4-3  python-blinker-1.4-11  python-   		               brotli-1.0.9-7  python-dateutil-2.8.2-4  python-editor-                 1.0.4-8  python-email-validator-1.1.3-3
@@ -19,7 +78,7 @@ Packages (35): python-alembic-1.7.4-3  python-blinker-1.4-11  python-   		      
 Total Installed Size:  153,29 MiB
 ```
 
-Thực tế thì khi tải xong, mình cũng gặp lỗi không thể sử dụng được :v, có thể đống package trên conflict version với pytho đâu đó trong máy của mình. Nhưng nói chung là rất nhiều lỗi vặt tùm lum, fix cái này lại lòi ra cái khác. 
+Thực tế thì khi tải xong, mình cũng gặp lỗi không thể sử dụng được :v, có thể đống package trên conflict version với python đâu đó trong máy của mình. Nhưng nói chung là rất nhiều lỗi vặt tùm lum, fix cái này lại lòi ra cái khác. 
 
 Xem lại trên fanpage của họ thì thấy có trên [Docker](https://hub.docker.com/r/dpage/pgadmin4/), quá tiện luôn, vừa để thực hành docker gần đây học :v.
 
