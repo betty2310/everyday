@@ -4,6 +4,7 @@ Nếu đều gõ `man gcc` và `man g++`, bạn đều thấy đều trỏ về 
 
 > gcc - GNU project C and C++ compiler
 
+
 Vậy thì khác biệt ở 2 giữa chúng là gì? Cơ bản nhất, `gcc` sử dụng để biên dịch các file `.c`, ngược lại với `g++` sẽ biên dịch các file `.cpp`. Thực tế, có thể dùng cả 2 trình biên dịch cho cả 2 ngôn ngữ, tuy nhiên vẫn có sự khác biệt: `g++` nếu biên dịch file `c` sẽ vẫn coi nó là file `cpp` bình thường, còn `gcc` sẽ coi `c` và `cpp` là riêng biệt.
 
 Ngoài ra, cái khác biệt nhất mà mình muốn đề cập đến:
