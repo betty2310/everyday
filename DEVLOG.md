@@ -18,7 +18,7 @@ Bỏ qua vòng gửi xe (là vòng điền form đấy - mình nghĩ ai dám sub
 
 Vẫn như mọi thứ 7, mình vẫn bê cái mặt mà mình tự tin nhất (đẹp ngời ngời mà) đến thư viện. Ngồi lê lết bê bết đến `13` giờ chiều thì đi ăn. Hôm nay còn có một sự kiên là `job fair` được tổ chức để lấy điểm rl nữa, nên là cũng tiện ra đấy luôn, mà có 1 cái meme khá hề về cái sự kiện này :v. 
 
-![[./pic/jobfair.png]]
+![](./_pic/jobfair.png)
 
 Sau đó thì đến chỗ phỏng vấn thôi :v. 
 Nói thật thì từ đầu mình đã xác định rõ ràng là không có cơ hội đỗ đạt gì, chỉ mong muốn 1 lần được trải nghiệm cảm giác được phỏng vấn, 1 lần dám vượt qua vùng toan àn của cá nhân, 1 lần  bốc phét về trình độ cho người cần nghe trung thực về trình độ và 1 lần nói thật về sự tự ti của mình suốt từ năm nhất đến giờ. 
