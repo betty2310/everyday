@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8b9ab2dc27c5d17c",
+        "id": "9dd0774285d417b1",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274
+    "width": 274,
+    "collapsed": true
   },
   "right": {
     "id": "3108f83d0cf7ba06",
@@ -113,17 +114,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8b9ab2dc27c5d17c",
+  "active": "9dd0774285d417b1",
   "lastOpenFiles": [
     "DEVLOG.md",
+    "Note.md",
+    "vault.md",
+    "README.md",
+    "notes/04.01.2002.md",
+    "CV.md",
     "_pic/2022.04.09-23.12.45.screenshot.png",
     "03.04.2022.md",
     "notes/01.04.2022.md",
-    "_pic/haiz.jpg",
-    "notes/03.31.2002.md",
-    "03.29.2022 - Docker_Tutorial nào!!!.md",
-    "Untitled 1.md",
-    "Đại cương về chuỗi.md",
-    "Math3/pdf/Scan-Giai-tich-3-MI1131.pdf"
+    "_pic/haiz.jpg"
   ]
 }
