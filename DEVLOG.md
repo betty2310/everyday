@@ -1,4 +1,4 @@
-# 04.23.2022 - Linh tinh  /  Lần đầu đi phỏng vấn!
+# 04.23.2022 - Linh tinh/ Lần đầu đi phỏng vấn!
 Nói phỏng vấn lại nghe oai quá, mọi người lại tưởng apply vào công ty A, startup B hay C XYZ gì đó à :v. Thật ra thì mình chỉ đi phỏng vấn vào 1 clb trong trường thôi. 
 
 Câu lạc bộ mình phỏng vấn là [Sinno](http://sinno.soict.ai/), trực thuộc [Trường CNTT - ĐH Bách Khoa Hà Nội](https://soict.hust.edu.vn/). Nói sơ qua thì **Sinno** là clb sáng tạo, phát triển các project, hoạt động liên quan đến ngành CNTT, một trong những clb mạnh và uy tín nhất của trường :v. 
@@ -33,10 +33,10 @@ Cá nhân mình thấy mình phỏng vấn như cái dbrr. Nếu mình ở bên 
 
 Thôi rút ra bài học những cái yếu kém của bản thân:
 
-1. Ăn nói chưa được chôi chảy, không thoát ý - cái này cũng hiển nhiên, có giao tiếp xã hội nhiều đâu mà chả thế. Khắc phục như nào bây giờ nhỉ?
-2. Trình độ kĩ thuật thì mình nghĩ vẫn chưa tới tầm, mình vẫn chưa thực sự làm được 1 cái project gì cả.
-3. Hơi thiếu tự tin, cũng như đôi khi, hoặc có khi mình tự nghĩ là mình luôn tự ti để lấy lý do cũng nên. Cái văn hoá đổ lỗi này của mình thật sự nên suy nghĩ.
-4. Arsenal sẽ đá `C1` mùa tới.
++  Ăn nói chưa được chôi chảy, không thoát ý - cái này cũng hiển nhiên, có giao tiếp xã hội nhiều đâu mà chả thế. Khắc phục như nào bây giờ nhỉ?
++  Trình độ kĩ thuật thì mình nghĩ vẫn chưa tới tầm, mình vẫn chưa thực sự làm được 1 cái project gì cả.
++  Hơi thiếu tự tin, cũng như đôi khi, hoặc có khi mình tự nghĩ là mình luôn tự ti để lấy lý do cũng nên. Cái văn hoá đổ lỗi này của mình thật sự nên suy nghĩ.
++ Arsenal sẽ đá **C1** mùa tới.
 
 Nói ra được yếu kém thì trong đầu cũng có kế hoạch để giải quyết chúng rồi. 頑張れ！
 
@@ -157,7 +157,7 @@ Mình viết thêm đoạn script nhỏ để phần setup đầy đủ hơn, t�
 + https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
 + https://www.metricfire.com/blog/what-is-docker-network-host/
 
-# 04.01.2022 - Linh tinh / Cá tháng 4, chuyện học hành, thực tập, tương lai. 
+# 04.01.2022 - Linh tinh/ Cá tháng 4, chuyện học hành, thực tập, tương lai. 
 
 ## Thực tập, job fair và tiếng Nhật
 Cá tháng 4, các mẩu chuyện mình đọc và biết hôm nay đều như trò đùa với tâm trí của bản thân mình vậy :v. Thật là tụt mood hôm nay mà. 
