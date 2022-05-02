@@ -1,4 +1,81 @@
+# 05.02.2022 - Hackintosh/ 1 tuần trải nghiệm - P1s.
+
+Đúng ra mình phải viết bài này từ hôm qua, thế mới tròn 1 tuần :v, nhưng hôm qua lại gặp vấn đề lớn mà mình sẽ đề cập ngay bên dưới, nên nay mới viết được. Thôi vào luôn chủ đề chính thôi. 
+
+Hackintosh - hiểu đơn giản là cài hệ điều hành MacOS trên các máy tính không phải của Apple sản xuất. Ví dụ nhưng laptop Thinkpad nhưng lại chạy macOS này (như mình - mình đổi tên nó thành ThinkMac luôn :v). 
+
+
+
+2 phần quan trọng nhất của hackintosh là kexts và bootloader. Kexts thì tương tự như drives trên window, còn bootloader thì để đương nhiên để boot lên thôi :v, nó còn như kiểu giúp đánh lừa macOS nhận diện (từ các kext trên) rằng ừ, đây là máy tính của apple này vậy, boot vào đi bạn eii.
+
+
+Kiến thức cần và đủ để hackintosh được là tương đối nhiều. Bạn phải hiểu rõ về phần cứng máy tính (để xem liệu phần cứng này có tương thích hay không - dù sao thì ta cũng chỉ đang đánh lừa macOS thôi mà, kiểu gì chả có 1 số thứ không thể lừa nó được), phân vùng, EFI, bios, rồi thì kĩ năng bình tĩnh nếu không thành công, kĩ năng google sau khi bạn kiếm soát được bản thân không bực tức nữa khi gặp lỗi, ..... Nhiều thế, nhưng mình vẫn thành công mặc dù không biết gì hết :v.
+
+
+### Trải nghiệm bản thân
+
+
+Tuần trước (ngay sau cái bài đi [phỏng vấn](https://www.betty2310.rocks/everyday/04-23-2022-linh-tinh-l-n-u-i-ph-ng-v-n-) ấy) tối về mình khá chán, nên muốn làm gì đó mà mình vẫn luôn thích - đó là vọc vạch cái gì đó mới. Nghe đến hackintosh đã lâu, lại cũng thích cái sự đẹp với mượt của mac nữa. Nên dù chỉ biết có tý tẹo kiến thức về những cái mình nêu bên trên, nhưng mình vẫn liều 1 phen (khổ thân cái máy của tôi, trải qua biết bao nhiêu hệ điều hành rồi :v)
+
+
+Sau khi biết 2 thứ quan trọng nhất để hackintosh là kexts và bootloader, mình cũng gặp may là phần cứng của chiếc máy mình sử dụng là Thinkpad t490 cũng tương thích gần như 100% rồi. Nên sau đó mình gõ ngay trên google "hackintosh thinkpadt490"! Có hết mọi thứ luôn :v, khá nhiều người đi trước rồi, và quan trọng nhất là bài viết này trên [Github](https://github.com/yusifsalam/t490-macos). Mọi thông tin cần thiết đều được chỉ rõ hết. Kext và các config liên quan đều đã được làm sẵn :v, chỉ việc bê về mà dùng. Nhưng mà tác giả dùng bản MacOS Bigsur, mình nghe giờ mới nhất là Monsterey cơ, nên cũng thử tìm xem có ai đã làm chưa (tham lam), ờ thì có [thật](https://github.com/ZoR3oL/t490-hackintosh) :v
+
+
+Xong kexts với config rồi nhé, giờ chọn booloader thôi, theo link tác giả mình đề cập trên thì anh ấy sử dụng [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/) và có link [hướng dẫn](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html) luôn. Nên mình cũng làm theo, hướng dẫn chi tiết lắm, nên cắm cái USB vào rồi xắn tay gõ phím luôn. 
+
+
+
+Việc duy nhất phải tự làm chắc là gen [SMBIOS](https://hackintosh.vn/huong-dan-cai-hackintosh#:~:text=%C4%90%E1%BA%B7c%20%C4%91i%E1%BB%83m%20c%E1%BB%A7a%20SMBIOS,v%C3%A0%20CPU%20c%E1%BB%A7a%20m%C3%ACnh.) cá nhân để sử dụng. Bao gồm MLB, serial và UUID. Công cụ sử dụng ở đây là [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS), sau khi lấy được cái key trên thì tự nhập vào file `config.plist` thôi.
+
+
+
+Xong các bước trên là bạn có 1 cái flash usb để boot rồi, giờ đến phần quan trọng hơn nào :v.
+
+
+
+### Boot 🚀🚀
+
+Mình cũng boot hệ điều hành nhiều rồi, Window cài lại với 1 đống distro Linux. Cơ bản là mọi việc cũng khá dễ, lần này mình nghĩ cùng vậy thôi. 
+
+
+Cơ mà lúc đầu mình vẫn nhớ là lắm lỗi lắm, không thể nhớ chính xác là gì, nhưng đại khái chính là liên quan đến cái SMBIOS và các key liên quan đề cập trên kìa. Nên là phải gen ra rồi điền cho đúng nhớ :v. 
+
+Sau đó thì đúng quy trình, mỗi tội hơi lâu, chắc phải cả 2-3 tiếng mới xong. 
+
+Lúc xong rồi thì sướng thật, được trải nghiệm MacOS lổi tiếng về UI/UX với mượt thì thôi rồi :v, nhưng mình vẫn phải test xem có phần nào không hoạt động không, thì thấy có:
+
++ Bluetooth - khá bất ngờ, vì theo link github thì pass 100% :v.
+
++ Airdrop - chắc chắn là tạch!
+
++ Phần system preference khá lag, một số mục thì sau khi sleep xong vào lại không được (báo lỗi), restart lại là được.
+
++ Cũng liên quan đến việc sau sleep, đó là nếu vẫn cắm tai nghe và sau đó wake up, âm thanh lúc này khá lạ, không biết nói sao nữa :v
+
++ Lạ nhất phải là cứ lên Google Chrome đăng nhập account khác là lag, crash cmn cả chrome. 
+
+Nhưng mấy cái trên không ảnh hưởng nhiều lắm :v, wifi, trackpad, bàn phím là đủ rồi, âm thanh thì reset lại card là ổn, nên về cơ bản là tạm hài lòng với thời gian bỏ ra.
+
+Sau đó là phần mount efi từ USB về disk để lần sau boot không cần USB mồi nữa. Đến đây mới ối zời ôi, mình copy thẳng tay file EFI từ usb ra disk, nó ghi đè lên file efi sẵn ở đây (nhưng mình quên là trong máy mình còn Window cơ mà - mình tính dùng song song cơ mà) thế là mất luôn boot của window, chỉ còn Mac :v. Mình định cuối tuần nghỉ 30-4 và 1-5 sẽ xử lý vần đế này. 
+
+Tức là hôm qua đấy, nhưng thôi bài dài lắm rồi, để mai viết tiếp phần 2 vậy.
+
+### References
+
++ [Making the installer in Windows | OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html)
+
++ [GitHub - ZoR3oL/t490-hackintosh: This repo contains files needed to &quot;Hackintosh&quot; your Lenovo T490.](https://github.com/ZoR3oL/t490-hackintosh)
+
++ [GitHub - yusifsalam/t490-macos: Lenovo T490 running macOS Big Sur using OpenCore](https://github.com/yusifsalam/t490-macos)
+
++ [GitHub - corpnewt/GenSMBIOS: Py script that uses acidanthera&#39;s macserial to generate SMBIOS and optionally saves them to a plist.](https://github.com/corpnewt/GenSMBIOS)
+
++ 
+
+
+
 # 04.23.2022 - Linh tinh/ Lần đầu đi phỏng vấn!
+
 Nói phỏng vấn lại nghe oai quá, mọi người lại tưởng apply vào công ty A, startup B hay C XYZ gì đó à :v. Thật ra thì mình chỉ đi phỏng vấn vào 1 clb trong trường thôi. 
 
 Câu lạc bộ mình phỏng vấn là [Sinno](http://sinno.soict.ai/), trực thuộc [Trường CNTT - ĐH Bách Khoa Hà Nội](https://soict.hust.edu.vn/). Nói sơ qua thì **Sinno** là clb sáng tạo, phát triển các project, hoạt động liên quan đến ngành CNTT, một trong những clb mạnh và uy tín nhất của trường :v. 
@@ -33,9 +110,9 @@ Cá nhân mình thấy mình phỏng vấn như cái dbrr. Nếu mình ở bên 
 
 Thôi rút ra bài học những cái yếu kém của bản thân:
 
-+  Ăn nói chưa được chôi chảy, không thoát ý - cái này cũng hiển nhiên, có giao tiếp xã hội nhiều đâu mà chả thế. Khắc phục như nào bây giờ nhỉ?
-+  Trình độ kĩ thuật thì mình nghĩ vẫn chưa tới tầm, mình vẫn chưa thực sự làm được 1 cái project gì cả.
-+  Hơi thiếu tự tin, cũng như đôi khi, hoặc có khi mình tự nghĩ là mình luôn tự ti để lấy lý do cũng nên. Cái văn hoá đổ lỗi này của mình thật sự nên suy nghĩ.
++ Ăn nói chưa được chôi chảy, không thoát ý - cái này cũng hiển nhiên, có giao tiếp xã hội nhiều đâu mà chả thế. Khắc phục như nào bây giờ nhỉ?
++ Trình độ kĩ thuật thì mình nghĩ vẫn chưa tới tầm, mình vẫn chưa thực sự làm được 1 cái project gì cả.
++ Hơi thiếu tự tin, cũng như đôi khi, hoặc có khi mình tự nghĩ là mình luôn tự ti để lấy lý do cũng nên. Cái văn hoá đổ lỗi này của mình thật sự nên suy nghĩ.
 + Arsenal sẽ đá **C1** mùa tới.
 
 Nói ra được yếu kém thì trong đầu cũng có kế hoạch để giải quyết chúng rồi. 頑張れ！
@@ -47,13 +124,11 @@ Thôi kết bài bằng 1 đoạn "thơ" nói về "dev" mà ko trực tiếp n�
 > You missed the semicolumn
 > In line forty-two. 
 
-
 # 04.10.2022 - C & C++ / Về gcc và g++.
 
 Nếu đều gõ `man gcc` và `man g++`, bạn đều thấy đều trỏ về 1 page với tiêu đề:
 
 > gcc - GNU project C and C++ compiler
-
 
 Vậy thì khác biệt ở 2 giữa chúng là gì? Cơ bản nhất, `gcc` sử dụng để biên dịch các file `.c`, ngược lại với `g++` sẽ biên dịch các file `.cpp`. Thực tế, có thể dùng cả 2 trình biên dịch cho cả 2 ngôn ngữ, tuy nhiên vẫn có sự khác biệt: `g++` nếu biên dịch file `c` sẽ vẫn coi nó là file `cpp` bình thường, còn `gcc` sẽ coi `c` và `cpp` là riêng biệt.
 
@@ -62,7 +137,7 @@ Ngoài ra, cái khác biệt nhất mà mình muốn đề cập đến:
 | `gcc`                                                                                     | `g++`                   |
 | ----------------------------------------------------------------------------------------- | ----------------------- |
 | Using `g++` to link the object files, files automatically links in the std C++ libraries. | `gcc` does not do this. |
-                                                                                                               
+
 Ví dụ cho khác biệt trên là thư viện `math.h`, ví dụ với đoạn code `c` sau:
 
 ```c
@@ -80,7 +155,6 @@ int isPrime(int number) {
     }
     return 1;
 }
-
 ```
 
 Sử dụng câu lệnh `gcc main.c -o main`, `gcc` sẽ vả vào mặt bạn với lỗi sau:
@@ -109,7 +183,7 @@ Có thể coi `g++` tương đương với `gcc -xc++ -lstdc++ -shared-libgcc`.
 + https://www.geeksforgeeks.org/difference-between-gcc-and-g/
 
 # 04.09.2022 - Docker/run pgAdmin4 on Docker in Arch Linux.
-	
+
 [pgAdmin4](https://www.pgadmin.org/download/) là GUI cho postgreSQL - dbms mình sẽ học cho học phần Database ở đại học. Nó là web application được build dựa trên `python` và `Javascript/jQuery`. Việc cài đặt trên Linux rất đơn giản, với Arch linux:
 
 ```bash
@@ -119,7 +193,7 @@ $ yay -S pgadmin4
 Nhưng app build dựa trên python, nên packages python đi kèm nó rất nhiều:
 
 ```
-Packages (35): python-alembic-1.7.4-3  python-blinker-1.4-11  python-   		               brotli-1.0.9-7  python-dateutil-2.8.2-4  python-editor-                 1.0.4-8  python-email-validator-1.1.3-3
+Packages (35): python-alembic-1.7.4-3  python-blinker-1.4-11  python-                          brotli-1.0.9-7  python-dateutil-2.8.2-4  python-editor-                 1.0.4-8  python-email-validator-1.1.3-3
               python-extras-1.0.0-10  python-fixtures-3.0.0-12  python-         flask-babelex-0.9.4-5  python-flask-compress-1.11-1               python-flask-gravatar-0.5.0-7  python-flask-login-0.6.0-1
               python-flask-mail-0.9.1-8  python-flask-migrate-3.0.0-3  python-flask-paranoid-0.2-8  python-flask-principal-0.4.0-8  python-flask-security-too-4.1.3-1
               python-flask-sqlalchemy-2.5.1-3  python-flask-wtf-1.0.0-1         python-gssapi-1.7.3-1  python-ldap3-2.9.1-3  python-paramiko-2.9.2-1  python-passlib-1.7.4-5  python-pbr-5.8.1-1
@@ -136,11 +210,12 @@ Xem lại trên fanpage của họ thì thấy có trên [Docker](https://hub.do
 ### Setup
 
 + Đầu tiên, pull image đó về: `docker pull dpage/pgadmin4`.
-+ Trước khi run, cần lưu ý 2 cái **environment variable** của pgAdmin là `PGADMIN_DEFAULT_EMAIL` và `PGADMIN_DEFAULT_PASSWORD` để đăng nhập vào web app lúc deploy. Nên mình phải dùng flag `-e` để set trước cho nó. Tiếp theo, vì là web app, nên cần set `--network="host"` để host trong docker container chung host  với host machine (là máy của mình). 
 
-    ```bash
-	$ docker run --name pgadmin --network="host" -e 	"PGADMIN_DEFAULT_EMAIL=admin@admin.admin" -e "PGADMIN_DEFAULT_PASSWORD=admin" -d dpage/pgadmin4
-	```
++ Trước khi run, cần lưu ý 2 cái **environment variable** của pgAdmin là `PGADMIN_DEFAULT_EMAIL` và `PGADMIN_DEFAULT_PASSWORD` để đăng nhập vào web app lúc deploy. Nên mình phải dùng flag `-e` để set trước cho nó. Tiếp theo, vì là web app, nên cần set `--network="host"` để host trong docker container chung host  với host machine (là máy của mình). 
+  
+  ```bash
+  $ docker run --name pgadmin --network="host" -e     "PGADMIN_DEFAULT_EMAIL=admin@admin.admin" -e "PGADMIN_DEFAULT_PASSWORD=admin" -d dpage/pgadmin4
+  ```
 
 + Giờ thì mở browser lên và truy cập url 127.0.0.1 thui :v. Đăng nhập với mail và pass mình set ở trên. 
 
@@ -157,9 +232,10 @@ Mình viết thêm đoạn script nhỏ để phần setup đầy đủ hơn, t�
 + https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
 + https://www.metricfire.com/blog/what-is-docker-network-host/
 
-# 04.01.2022 - Linh tinh/ Cá tháng 4, chuyện học hành, thực tập, tương lai. 
+# 04.01.2022 - Linh tinh/ Cá tháng 4, chuyện học hành, thực tập, tương lai.
 
 ## Thực tập, job fair và tiếng Nhật
+
 Cá tháng 4, các mẩu chuyện mình đọc và biết hôm nay đều như trò đùa với tâm trí của bản thân mình vậy :v. Thật là tụt mood hôm nay mà. 
 
 Từ những câu truyện bên lề như có 1 cô gái nọ vì tình yêu mà đốt nhà người ta, hay 1 em trai mới lớp 10 đã tự từ vì áp lực học tập. 
@@ -171,9 +247,9 @@ Mình không phải là người thông minh, mình tự nhận như vậy và l
 Điều ấy được minh chứng rõ ràng qua 2 cái học bổng mình vừa kể trên. Cơ mà ngay trong kì 3 học online vừa rồi, cái thứ mình tự hào nhất vừa nãy cũng không còn nữa. Nguyên nhân thì mình chưa muốn đề cập đến (mình có nhiều lý do lắm :v, kể cả để đổ lỗi hay từ chính bản thân), nên là học hành - và ở đây mình muốn nói đến tiếng Nhật của bản thân, đã chững lại, không phát triển được gì thêm trong 1 quãng dài.
 
 ![!](./_pic/haiz.jpg)
- 
+
 Điều này ảnh hưởng nhiều đến tâm lý, và suy nghĩ của mình đến kì job fair vào đầu năm 3 của mình chứ. Liệu có như ý không nhỉ? mình đọc được rằng nếu đầu năm 3 có job fair, mình nên có kinh nghiệm thực tập vào tầm năm 2 như này, nhưng cơ hội của mình đã qua trong khi mình rõ ràng có khả năng nắm lấy. Haizzz.
- 
+
 Mình lại thấy nhiều người giỏi của chính ngành IT-E6, những người mình ngưỡng mộ thật sự và đương nhiên có 1 chút ghen tỵ từ họ. Vừa học giỏi, nhiều bạn bè, thầy cô nữa chứ. Haizzzzz. 
 
 Còn 1 chuyện nữa, đến cả hôm nay lên thư viện - nới mình luôn thích nhất, thì cũng ăn cơm chó đến no cả bữa trưa :v. Đúng là ngày buồn :v
@@ -183,30 +259,33 @@ Còn 1 chuyện nữa, đến cả hôm nay lên thư viện - nới mình luôn
 Quả là ngày như kiểu mọi kiểu nỗi buồn đổ hết vào đầu. 
 
 ## でも、
- 
+
 Vượt lên thôi chứ sao :v, gì chứ những điều trước đây mình luôn nghĩ là khó, bất khả thi thì mình lại càng cố gắng và muốn đạt được nó như việc đỗ vào được HUST này, được học bổng này :v. Vậy nên than thở đến đây thôi!
- 
+
 Thật ra viết được hết những tâm sự này đã là 1 thành công lớn rồi, âu nó cũng giải tỏa cho chính bản thân mình 1 chút vấn đề. Chắc là chưa ai đọc blog của mình đâu :v. Bản thân mình bây giờ gần như chẳng có ai để chia sẻ vấn đề tâm lý cá nhân, nhiều khi dồn nén lại rồi cảm thấy khó chịu - đây có thể là giải pháp tốt hiện giờ. 
 
 Còn bây giờ, mình vẫn đang xem bốc thăm vòng chung kết World Cup 2022. 
- 
- 
+
 # 03.31.2022 - Computer Architecture/Keyboard buffer...
 
 ### Buffer
+
 Một vùng đệm, something like một vùng ảo, temp :v. 
 
-### Keyboard buffer 
+### Keyboard buffer
+
 Khi ta tương tác với bàn phím, những phím mình gõ không được gửi thẳng trực tiếp đến bộ xử lý của máy tính ngay, mà nó được gửi vào 1 vùng buffer để lưu giữ các keystrokes này lại, sau 1 số bước xử lý mới send vào cpu. Vùng buffer nằm trên RAM, dung lượng rất nhỏ.
 
 ### Yeah what it do and why exits?
+
 Vậy thì mình tự hỏi, sao phải vẽ ra cái buffer này để làm gì nhỉ? Trước hết thì:
 
 + Giúp mình có thể control được các tổ hợp phím. Giả sử như `control + shift + Esc` để mở Task manager (trên Window) chẳng hạn. Buffer cho cpu 1 quãng nghỉ để đợi các chuỗi phím được hoàn thành hết, rồi mới xử lý. 
 + Lỡ đâu mình bấm nhanh quá, Cpu còn không kịp xử lý mình bấm cái gì thì sao :v, buffer cũng giải quyết vấn đề này. 
 + Mình nghĩ được thế này thôi :((.
 
-### Buffer in Programming language 
+### Buffer in Programming language
+
 Trong ngôn ngữ `C`, sử dụng các hàm đọc dữ liệu từ bàn phím như `scanf` , tưởng rằng như nó đọc trực tiếp: ta bấm gì thì nó đọc đấy, nhưng thật ra nó chỉ đọc qua buffer mà thôi.
 Việc kiểm soát các ký tự trong buffer lúc này rất là important, giả sử như các phím ta bấm nhưng `scanf` không đọc hết, nó sẽ còn thừa 1 số kí tự trong buffer, và sẽ ảnh hưởng đến các lần đọc input từ bàn phím tiếp theo.
 
@@ -302,24 +381,25 @@ For more examples and ideas, visit:
 ```
 
 ### Ref
+
 * https://hub.docker.com/
 * https://linuxhint.com/arch-linux-docker-tutorial/
 
 # 03.28.2022 - Computer Architecture/Little endian và Big endian.
 
-## Về cái tiêu đề 
+## Về cái tiêu đề
+
 * Cả Little endian và Big endian là các cách mà máy tính hiểu và cách thức đọc dữ liệu tư `input` của chúng ta. Bình thường ta hay đọc theo thứ tự từ trái sang phải, nhưng không phải máy tính nào cũng đọc giống thế cả, mà chúng cũng thích tự có cách đọc riêng cơ 🤣.
 * Little endian hay Little-end, là cách đọc mà các byte ở vị trí nhỏ nhất (nôm na là lại đọc số  từ hàng đơn vị) sẽ được đọc trước. Điều ngược lại với Big endian - đọc các byte giống với con người.
 * Lưu ý rằng sự khác biệt chỉ đến từ vị trí của các byte, còn thứ tự các bit trong 1 byte thì vẫn không đổi. Nên nếu dữ liệu chỉ gồm 1 byte, thì 2 kiến trúc này không có sự khác biệt. 
 * Mình tìm hiểu được thì các chip [intel](https://en.wikipedia.org/wiki/Endianness#:~:text=However%2C%20as%20Intel%20was%20unable%20to%20deliver%20the%208008%20in%20time%2C%20Datapoint%20used%20a%20medium%20scale%20integration%20equivalent%2C%20but%20the%20little%2Dendianness%20was%20retained%20in%20most%20Intel%20designs%2C%20including%20the%20MCS%2D48%20and%20the%208086%20and%20its%20x86%20successors.) theo kiến trúc Little endian này. 
 
-### Yeah! 
+### Yeah!
+
 Hôm nay là ngày đầu tiên quay lại trường học sau gần 11 tháng học off. Có khá nhiều cảm xúc đan xen :v, vui có mà buồn cũng có.
 Nhưng giờ không phải là lúc để than thở bạn ơi! Từ giờ sẽ cố gắng rèn luyện thêm 1 thói quen nữa là viết blog về mỗi ngày nhé :v. 
 
-## References 
-*  https://en.wikipedia.org/wiki/Endianness
-*  https://viblo.asia/p/little-endian-vs-big-endian-E375z0pWZGW
+## References
 
-
-
+* https://en.wikipedia.org/wiki/Endianness
+* https://viblo.asia/p/little-endian-vs-big-endian-E375z0pWZGW
