@@ -1,3 +1,3 @@
 ### My blog's post 📓
 
-View [here](https://bett2310.rocks)
+View [here](https://betty2310.rocks)
