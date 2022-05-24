@@ -1,42 +1,68 @@
-# 05.02.2022 - Hackintosh/ 1 tuần trải nghiệm - P1s.
+# 05.24.2022 - Hackintosh/ 1 tuần trải nghiệm - P2.
+
+[Phần 1](https://www.betty2310.rocks/everyday/05-02-2022-hackintosh-1-tu-n-tr-i-nghi-m-p1s-)
+
+Hihi, bẩu 1 tuần viết tiếp bài nữa về chủ đề này mà hoá ra thành cmn nó 3 tuần 🤣🤣. Chắc sẽ viết 1 bài tâm sự nhỉ. Nhưng mà giờ tập trung vào chủ đề **Hackintosh** nào.
+
+Sau khi mất boot window thì mình buộc phải tìm cách để cài thêm window vào máy thôi. Mình chắc chắn học chương trình đại học như mình không thể bỏ window được (Ơ đổ cho đại học là không đúng :v, thật ra mình vẫn muốn chơi game 😢). 
+
+Thế là giờ có 2 cách:
+
++ Dual boot luôn từ mac os (tức là phân vùng rồi cài). Nhưng việc không thể merge phân vùng win vào mac được (mình chỉ mất boot thôi mà) nên thôi sang cách 2.
++ Chơi khô máu hẳn, tức là xoá tất, format lại luôn ổ cứng. Cài lại cả win lẫn mac luôn.
+
+Mình cũng muốn làm vậy hơn, cái win mình sử dụng lúc đó là win11 bản dev, tù vãi chày. Mà theo mình còn bloat nữa, mình cũng định cài lại vào 1 một dịp nào rồi, nên giờ là chuẩn cmnl, và sẽ dùng win 10. Mac os thì giờ dễ hơn, không đáng lo nữa, mà biết đâu cài lại thì các lỗi post trước nêu lại fix được nhỉ. Hơn nữa, mình cũng có thể chia lại dung lượng phân cho 2 os. Vì mac sẽ là hđh chính nên nó sẽ xơi nhiều hơn 1 tẹo, chắc là 4-6.
+
+Thế là làm thôi. Nhưng dễ quá thì lại không thích, mà mình thấy dễ, nên ông trời tự làm khó mình luôn :v, buổi sáng mai hôm ấy, trời mất cmn điện.
+
+Vcl mất điện, thế là hổng có mạng, đành phải ra quán net vậy :v.
+
+Ra làm cái bộ cài win do mình quyết định cài win trước. Trời ơi lại không có USB để boot (có 2 cái để hết trên thủ đô rồi) nên lại phải lọ mọ đi mua thêm 1 cái nữa (hình như mấy gần 2 lốp lận).
+
+Làm bộ cái giờ cũng dễ, làm xong cái usb thì về. Giờ cái win dễ thật đấy, chả phải làm gì nhiều ngoài next next y như lúc tải app trên win luôn. 
+
+Sau khá lâu mới về lại win 10 (mình dùng win 11, Linux rồi đến Mac là chính), công nhận đôi khi đơn giản, vuông vức cũng không tệ. Trải nghiệm mượt mà, không nóng máy còn ngon chán so với quả 11 nửa vời. Xong thì mình không vội vàng cái Mac ngay mà cũng muốn trải nghiệm lại 1 lúc :v. Thế là lại lọ mò tải 1 số app cần thiết, rồi setup các thứ như cho 1 developer xịn luôn, chắc là sẽ có 1 bài viết về cái này thôi.
+
+Mình muốn nói đến mac kìa, cơ bản thì vẫn thế, chả khác gì, vẫn dùng Opencore, vẫn dùng cái bộ [efi chôm từ 1 repo](https://github.com/ZoR3oL/t490-hackintosh) trên github ấy. Nhưng cái mình muốn nói là: gần như các lỗi mình kể lần trước giờ lại fix được hết luôn, ảo thật đấyyyy.
+
++ Airdrop không chấp :v
++ Bluetooth ngon luôn, không vấn đề gì hết.
++ System preference cũng chả lag, kể cả setting cho Siri.
++ Google Chrome cũng không crash lúc đăng nhập vào account khác nữa.
++ Âm thanh thì lâu lâu sleep xong wake up lại vẫn bị rè rè, nhưng khắc phục được bằng cách restart `coreaudioid` mà không cần phải restart hẳn lại máy.
+
+Vậy nên, gần như là perfect.
+Mà perfect thật mà :v, giờ cái lap của mình chuẩn đét luôn, bộ nhớ phân chia hợp lý cho 2 hệ điều hành, window trông thế những nhanh, nhẹ, tối giản, vẫn đầy đủ tool cho dev mình cài. Mac thì dùng làm hđh sử dụng chính.
+
+Mình cũng sẽ lên thêm 1 bài nữa về setting cơ bản lúc dùng Mac của mình, khá nhiều điều để nói đấy, sau đó là các app nữa :v. Ơ vậy viết xong bài này thấy có mấy bài liền cần phải viết rồi đấy nhỉ.
+
+Thế thì lại hẹn tuần sau (hoặc ngày mai, hoặc 3 tuần nữa, ai mà biết được giờ :v)
+
+# 05.02.2022 - Hackintosh/ 1 tuần trải nghiệm - P1.
 
 Đúng ra mình phải viết bài này từ hôm qua, thế mới tròn 1 tuần :v, nhưng hôm qua lại gặp vấn đề lớn mà mình sẽ đề cập ngay bên dưới, nên nay mới viết được. Thôi vào luôn chủ đề chính thôi. 
 
 Hackintosh - hiểu đơn giản là cài hệ điều hành MacOS trên các máy tính không phải của Apple sản xuất. Ví dụ nhưng laptop Thinkpad nhưng lại chạy macOS này (như mình - mình đổi tên nó thành ThinkMac luôn :v). 
 
-
-
 2 phần quan trọng nhất của hackintosh là kexts và bootloader. Kexts thì tương tự như drives trên window, còn bootloader thì để đương nhiên để boot lên thôi :v, nó còn như kiểu giúp đánh lừa macOS nhận diện (từ các kext trên) rằng ừ, đây là máy tính của apple này vậy, boot vào đi bạn eii.
-
 
 Kiến thức cần và đủ để hackintosh được là tương đối nhiều. Bạn phải hiểu rõ về phần cứng máy tính (để xem liệu phần cứng này có tương thích hay không - dù sao thì ta cũng chỉ đang đánh lừa macOS thôi mà, kiểu gì chả có 1 số thứ không thể lừa nó được), phân vùng, EFI, bios, rồi thì kĩ năng bình tĩnh nếu không thành công, kĩ năng google sau khi bạn kiếm soát được bản thân không bực tức nữa khi gặp lỗi, ..... Nhiều thế, nhưng mình vẫn thành công mặc dù không biết gì hết :v.
 
-
 ### Trải nghiệm bản thân
-
 
 Tuần trước (ngay sau cái bài đi [phỏng vấn](https://www.betty2310.rocks/everyday/04-23-2022-linh-tinh-l-n-u-i-ph-ng-v-n-) ấy) tối về mình khá chán, nên muốn làm gì đó mà mình vẫn luôn thích - đó là vọc vạch cái gì đó mới. Nghe đến hackintosh đã lâu, lại cũng thích cái sự đẹp với mượt của mac nữa. Nên dù chỉ biết có tý tẹo kiến thức về những cái mình nêu bên trên, nhưng mình vẫn liều 1 phen (khổ thân cái máy của tôi, trải qua biết bao nhiêu hệ điều hành rồi :v)
 
-
 Sau khi biết 2 thứ quan trọng nhất để hackintosh là kexts và bootloader, mình cũng gặp may là phần cứng của chiếc máy mình sử dụng là Thinkpad t490 cũng tương thích gần như 100% rồi. Nên sau đó mình gõ ngay trên google "hackintosh thinkpadt490"! Có hết mọi thứ luôn :v, khá nhiều người đi trước rồi, và quan trọng nhất là bài viết này trên [Github](https://github.com/yusifsalam/t490-macos). Mọi thông tin cần thiết đều được chỉ rõ hết. Kext và các config liên quan đều đã được làm sẵn :v, chỉ việc bê về mà dùng. Nhưng mà tác giả dùng bản MacOS Bigsur, mình nghe giờ mới nhất là Monsterey cơ, nên cũng thử tìm xem có ai đã làm chưa (tham lam), ờ thì có [thật](https://github.com/ZoR3oL/t490-hackintosh) :v
-
 
 Xong kexts với config rồi nhé, giờ chọn booloader thôi, theo link tác giả mình đề cập trên thì anh ấy sử dụng [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/) và có link [hướng dẫn](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html) luôn. Nên mình cũng làm theo, hướng dẫn chi tiết lắm, nên cắm cái USB vào rồi xắn tay gõ phím luôn. 
 
-
-
 Việc duy nhất phải tự làm chắc là gen [SMBIOS](https://hackintosh.vn/huong-dan-cai-hackintosh#:~:text=%C4%90%E1%BA%B7c%20%C4%91i%E1%BB%83m%20c%E1%BB%A7a%20SMBIOS,v%C3%A0%20CPU%20c%E1%BB%A7a%20m%C3%ACnh.) cá nhân để sử dụng. Bao gồm MLB, serial và UUID. Công cụ sử dụng ở đây là [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS), sau khi lấy được cái key trên thì tự nhập vào file `config.plist` thôi.
 
-
-
 Xong các bước trên là bạn có 1 cái flash usb để boot rồi, giờ đến phần quan trọng hơn nào :v.
-
-
 
 ### Boot 🚀🚀
 
 Mình cũng boot hệ điều hành nhiều rồi, Window cài lại với 1 đống distro Linux. Cơ bản là mọi việc cũng khá dễ, lần này mình nghĩ cùng vậy thôi. 
-
 
 Cơ mà lúc đầu mình vẫn nhớ là lắm lỗi lắm, không thể nhớ chính xác là gì, nhưng đại khái chính là liên quan đến cái SMBIOS và các key liên quan đề cập trên kìa. Nên là phải gen ra rồi điền cho đúng nhớ :v. 
 
@@ -69,10 +95,6 @@ Tức là hôm qua đấy, nhưng thôi bài dài lắm rồi, để mai viết 
 + [GitHub - yusifsalam/t490-macos: Lenovo T490 running macOS Big Sur using OpenCore](https://github.com/yusifsalam/t490-macos)
 
 + [GitHub - corpnewt/GenSMBIOS: Py script that uses acidanthera&#39;s macserial to generate SMBIOS and optionally saves them to a plist.](https://github.com/corpnewt/GenSMBIOS)
-
-+ 
-
-
 
 # 04.23.2022 - Linh tinh/ Lần đầu đi phỏng vấn!
 
