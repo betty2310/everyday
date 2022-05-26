@@ -1,4 +1,23 @@
-# 05.24.2022 - Hackintosh/ 1 tuần trải nghiệm - P2.
+# 5.26.2022 - Linh tinh/ Niềm vui nhỏ
+
+Mình là người luôn buồn.
+
+Có lẽ từ khi lên đại học, mình nhận ra như thế, chẳng thể nhớ được niềm vui thật sự, nụ cười thực sự gần nhất là khi nào nữa. Tâm lý mình lúc nào cũng nặng.
+
+Vài hôm trước, khi mình sang đường (đường Hà Lội nhé :v), có một bà cụ nhờ mình dắt qua, trời nóng, mình cũng tiện lấy cái ô trong balo ra che luôn cho cụ. Sang bên kia, cụ cảm ơn mình, mình cảm ơn lại cụ. Cụ có lẽ không biết, mình giúp cụ thì ít, chứ cụ giúp mình lại thì nhiều lắm.
+
+Người ta hay bảo giúp người khác thì mình cũng sẽ nhậi được 1 điều gì đó. Mình nhận được gì nhỉ? Nhận được sự cứu rỗi cho cái tâm hồn này, nhận đươc một nụ cười thật sự trong thoáng chốc nhìn nét mặt tươi tỉnh của cụ - bấy lâu nay mình không có được, có lẽ điều ấy lớn lao hơn nhiều so với việc mình giúp cụ qua đường, vì ai cũng sẽ giúp cụ trong hoàn cảnh đấy thôi. Nhưng cụ chọn mình, cụ biết người nào mới thực sự đang cần giúp.
+
+Hay dạo này trời mưa, ừm mưa, mưa tức là lòng ông trời cũng nặng trĩu, cùng muốn xả hết cái nỗi buồn này, mình đi dưới trời mưa, tự dưng lại cảm thấy vui vẻ hơn, vì cũng có một người giống mình :v
+
+Chiều về, mình thường hay ngồi ở hàng ghế trước thư viện trong trường. Ngồi đó nghĩ vẩn vơ, nhìn lên bầu trời, và nhìn cả màu xanh của hàng cây nữa. Nhẹ nhàng thật, mọi thứ yên bình như thế, cảm nhận cơn gió cuối ngày, tiếng cười nói của mọi người nữa. Ấy cũng là niềm vui. 
+
+Hôm qua cũng từ vị trí ấy, mình thấy lọn tóc đuôi gà phấp phới trong ánh nắng sau mưa, ngày xưa crush cũng tóc đuôi gà nhỉ, thấy vừa vui vừa buồn cười cuyện ngày xưa :v.
+
+Cảm nhận niềm vui từ những việc nhỏ ấy, mình dần dần phải học. 
+
+
+# 05.24.2022 - Hackintosh/ 1 tuần trải nghiệm <P2>.
 
 [Phần 1](https://www.betty2310.rocks/everyday/05-02-2022-hackintosh-1-tu-n-tr-i-nghi-m-p1s-)
 
@@ -38,7 +57,7 @@ Mình cũng sẽ lên thêm 1 bài nữa về setting cơ bản lúc dùng Mac c
 
 Thế thì lại hẹn tuần sau (hoặc ngày mai, hoặc 3 tuần nữa, ai mà biết được giờ :v)
 
-# 05.02.2022 - Hackintosh/ 1 tuần trải nghiệm - P1.
+# 05.02.2022 - Hackintosh/ 1 tuần trải nghiệm <P1>.
 
 Đúng ra mình phải viết bài này từ hôm qua, thế mới tròn 1 tuần :v, nhưng hôm qua lại gặp vấn đề lớn mà mình sẽ đề cập ngay bên dưới, nên nay mới viết được. Thôi vào luôn chủ đề chính thôi. 
 
@@ -97,7 +116,7 @@ Tức là hôm qua đấy, nhưng thôi bài dài lắm rồi, để mai viết 
 + [GitHub - corpnewt/GenSMBIOS: Py script that uses acidanthera&#39;s macserial to generate SMBIOS and optionally saves them to a plist.](https://github.com/corpnewt/GenSMBIOS)
 
 # 04.23.2022 - Linh tinh/ Lần đầu đi phỏng vấn!
-
+k
 Nói phỏng vấn lại nghe oai quá, mọi người lại tưởng apply vào công ty A, startup B hay C XYZ gì đó à :v. Thật ra thì mình chỉ đi phỏng vấn vào 1 clb trong trường thôi. 
 
 Câu lạc bộ mình phỏng vấn là [Sinno](http://sinno.soict.ai/), trực thuộc [Trường CNTT - ĐH Bách Khoa Hà Nội](https://soict.hust.edu.vn/). Nói sơ qua thì **Sinno** là clb sáng tạo, phát triển các project, hoạt động liên quan đến ngành CNTT, một trong những clb mạnh và uy tín nhất của trường :v. 
